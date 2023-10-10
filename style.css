@@ -1,0 +1,135 @@
+:root{
+  --gray-background: #fa9435;
+  --site-color-01: rgb(240, 210, 43);
+  --site-color-01-hover: rgb(118, 208, 238);
+}
+
+body {
+  background-color: rgb(51, 46, 46);
+}
+
+body:after{
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(/image/Discord-color.png) url(/image/gp-color.png);
+}
+
+h1{
+  font-size: 26px;
+  line-height: 32px;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+h2{
+  font-size: 26px;
+  line-height: 32px;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+h3{
+  font-size: 26px;
+  line-height: 32px;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+p{
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  font-family: Roboto;
+}
+a{
+  cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    font-family: Roboto;
+}
+.header-main {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  background-color: var(--gray-background);
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    padding-left: 60px;
+    display:flex;
+}
+
+.header-main-logo img{
+    height: 80px;
+    align-self: center;
+}
+
+.header-main-nav{
+    width: fit-content;
+    height: 100%;
+}
+
+.header-main-nav ul{
+      list-style: none;
+      margin-left: 30px;
+}
+.header-main-nav ul li{
+      display:inline;
+      float: left;
+      
+}
+.header-main-nav ul li a{
+      padding: 0px 20px;
+      font-family: 'roboto', Arial;
+      line-height: 100px;
+      color: #000;
+      display: block;
+      height: 100%;
+      font-weight: 500;
+}
+.header-main-nav ul li a:hover{
+  color: yellow;
+}
+.header-main-sm{
+    width: fit-content;
+    height: 100%;
+    padding-right:60px;
+    display: flex;
+    align-items: center;
+    column-gap:  20px;
+}
+.header-main-sm-dc{
+  width: 30px;
+  height: 30px;
+  background-image: url(/image/discord.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-main-sm-dc:hover{
+  background-image: url(/image/Discord-color.png);
+}
+.header-main-sm-gp{
+  width: 30px;
+  height: 30px;
+  background-image: url(/image/gp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-main-sm-gp:hover{
+  background-image: url(/image/gp-color.png);
+
+}
+
