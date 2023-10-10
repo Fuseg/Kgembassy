@@ -14,7 +14,7 @@ body:after{
     height: 0;
     overflow: hidden;
     z-index: -1;
-    content: url(/image/Discord-color.png) url(/image/gp-color.png);
+    content: url(Discord-color.png) url(gp-color.png);
 }
 
 h1{
@@ -114,22 +114,22 @@ a{
 .header-main-sm-dc{
   width: 30px;
   height: 30px;
-  background-image: url(/image/discord.png);
+  background-image: url(discord.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .header-main-sm-dc:hover{
-  background-image: url(/image/Discord-color.png);
+  background-image: url(Discord-color.png);
 }
 .header-main-sm-gp{
   width: 30px;
   height: 30px;
-  background-image: url(/image/gp.png);
+  background-image: url(gp.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .header-main-sm-gp:hover{
-  background-image: url(/image/gp-color.png);
+  background-image: url(gp-color.png);
 
 }
 
