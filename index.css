@@ -3,7 +3,7 @@ main{
     height: calc(100vh - 90px);
     background-color: rgb(248, 69, 69);
     margin-top: 90px;
-    background-image: url(/image/blackwell.png), url(/image/castle-wall.jpg);
+    background-image: url(blackwell.png), url(castle-wall.jpg);
     background-size: 40vh, cover;
     background-repeat: no-repeat;
     background-position: bottom left calc(50% - 450px), center;
@@ -80,19 +80,19 @@ main a:hover{
     position: relative;
 }
 .index-catagory-box:nth-child(2) {
-    background-image: url(/image/kg-alliances.jpg)
+    background-image: url(kg-alliances.jpg)
     
 }
 .index-catagory-box:nth-child(3) {
-    background-image: url(/image/Discord-color.png)
+    background-image: url(Discord-color.png)
     
 }
 .index-catagory-box:nth-child(4) {
-    background-image: url(/image/Hero.png)
+    background-image: url(Hero.png)
     
 }
 .index-catagory-box:nth-child(5) {
-    background-image: url(/image/Calculators.png)
+    background-image: url(Calculators.png)
     
 }
 .dark-overlay {
